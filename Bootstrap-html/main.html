@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<!-- Kuvaa että puhumme html rakenteesta-->
+<html>
+<!-- 'Säännöt'-->
+
+<head>
+  <meta charset="utf-8">
+
+
+  <!-- Tässä on importattu bootsttrapin css joka mahdollistaa rivi ja kolumni muotoilun sujuvasti -->
+  <!-- css kirjastoja voidaan muuttaa tarpeen mukaan, ja se vaikuttaa joko kaikkiin samoihin elementteihin tai vain sille luodulle-->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/boo
+        tstrap.min.css" rel="stylesheet" integrity="sha384-
+        1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW
+        3" crossorigin="anonymous">
+
+
+
+
+
+</head>
+
+<!-- Runko jotka näkyvät sivulla -->
+
+<body>
+  <h1> Pääotsikko &lt;h1&gt;</h1>
+
+  <!-- Navigation bar -->
+  <nav class="navbar navbar-light bg-light">
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <button class="nav-item nav-link"
+          onclick="window.location.href='https://lehmafi.github.io/WebTeknoologiatJohdatus/ekaHtmlSivu/ekaHtmlSivu%20copy/HTML%20sivu.html'">EkaHtmlSivu</a>
+          <button class="nav-item nav-link"
+            onclick="window.location.href='https://lehmafi.github.io/WebTeknoologiatJohdatus/LomakeTeht//LomakeTeht%20copy/LomakeSivu.html'">Lomakesivu</a>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Luokka jotta saadaan gridi aikaiseksi -->
+  <div class="container">
+    <!-- asettelu alkaen rivistä -->
+    <div class="col">
+      <!-- Kolumni -->
+      <div class="row">
+        <!-- Kappale -->
+        <p class="text-primary"> Kappale on tässä &lt;p&gt;</p>
+      </div>
+      <div class="row">
+        <!-- H1 alempi otiskko teksti -->
+        <h2>Kuvan otsikko &lt;h2&gt;</h2>
+        <!-- Kuva -->
+        <img
+          src="https://lut.pictures.fi/kuvat/LUT%20Press%20Images/LOGOS/LUT%20Logo/Logo%20for%20screens/LUT%20logo%20%7C%20White%20text%20RGB%20png.png?img=smaller">
+      </div>
+      <div class="row">
+        <!-- Hyperlink/linkki-->
+        <a href="https://lab.fi/en">Tätä painamalla avataan linkki lab/lut &lt;a&gt;</a>
+      </div>
+      <div class="row">
+        <!-- Hyperlink/linkki-->
+        tässä on käytössä line break &lt;br&gt; <br> joka asettaa seuraavalle riville
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/boots
+        trap.bundle.min.js" integrity="sha384-
+        ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1
+        p" crossorigin="anonymous"></script>
+</body>
+
+</html>
